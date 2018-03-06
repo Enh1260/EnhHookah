@@ -1,0 +1,299 @@
+@import "http://fonts.fontstorage.com/import/beermoney.css";
+@import "http://fonts.fontstorage.com/import/gagalin.css";
+html{
+	margin:0;
+	padding: 0;
+
+}
+body{
+	background-color: #666;
+	margin:0;
+	padding: 0;
+	font-size:25px;
+	font-family: 'Gagalin';
+
+}
+section{
+	width: 100%;
+	height:100vh;
+}
+h1,h2,h3{
+	font-family: 'Beer money';
+
+}
+h1{
+	font-size: 2em;
+	color:#fff;
+
+}
+a{
+	color:#000;
+	text-decoration: none;
+}
+.wrap{
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+}
+.Home> button> h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.Home button{
+	display: block;
+	height: 100px;
+	outline: none;
+	background-color: rgba(255,255,255,0);
+	border:none;
+	margin:20px  auto;
+	cursor: pointer;
+}
+#but_menu{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	border:none;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 10px;
+	outline: 0;
+	box-shadow: rgba(255,255,255,.3) 3px 3px 4;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.lol{
+	top: 0;
+    left: -500px;
+	position: fixed;
+	height: 100vh;
+    width: 250px;
+    background-color: rgba(255,255,255,.7);
+    padding: 100px 50px;
+    z-index: 1;
+    box-shadow: 0 -20px 16px rgba(255,255,255,.7);
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+video{
+	left: 0;
+	top:0;
+	z-index: -1;
+
+	width: 100%;
+	position: fixed;
+}
+.video-box{
+	width: 100%;
+}
+.hello-text{
+	text-align: center;
+	display: block;
+	width: auto;
+	color:#fff;
+	margin-top:150px;
+
+}
+.big-text{
+	width: auto;
+	display:block;
+	margin:0 auto;
+	font-size: 3em #fff;
+	letter-spacing: 6px;
+}
+.logo-text{
+	width: auto;
+	display:block;
+	margin:0 auto;
+	font-size:4em;
+	font-family: 'Beer money';
+}
+.menu-block{
+	display: block;
+	position:fixed;
+	left:-480px;
+	z-index: 2;
+	font-family: 'Gagalin';
+}
+.top-30{
+	top:30%;
+}
+.top-40{
+	top:40%;
+}
+.top-50{
+	top:50%;
+}
+.home{
+
+}
+.about{
+	display: block;
+	height: 100vh;
+	background-size: cover;
+	background-image: url(../img/bg-stone.jpg);
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	text-transform: none;
+
+}
+.arrow-top{
+	position: absolute;
+	left:50%;
+}
+.arrow-top>.arrow-block-down{
+	position: absolute;
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	border-left: none;
+	border-top: none;
+	transform: rotate(45deg);
+    height: 30px;
+    width: 30px;
+}
+.right-line{
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+    margin-left: 39px;
+    margin-top: 15px;
+}
+.left-line{
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+    margin-left: -104px;
+    margin-top: 15px;
+}
+.arrow-down{
+	position: absolute;
+    margin-top: 5px;
+    left: 49.2%;
+
+}
+.arrow-down>.arrow-block-down{
+	position: absolute;
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	border-left: none;
+	border-top: none;
+	transform: rotate(45deg);
+    height: 50px;
+    width: 50px;	
+}
+.arrow-down>.right-line{
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+    margin-left: 63px;
+    margin-top: 23px;
+}
+.arrow-down>.left-line{
+	position: absolute;
+	width: 100px;
+	height: 5px;
+	background-color: #000;
+	margin-left: -107px;
+    margin-top: 24px;
+}
+.shadow{
+	box-shadow: 0 0 5px rgba(255,255,255,.8);
+}
+.slider{
+    width: 750px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    margin: auto auto;
+    box-shadow: 0 0 40px 20px #000;
+    border-radius: 10px;
+}
+.slider-images{
+	position: absolute;
+    display: inline-block;
+    width: 3750px;
+    height: 400px;
+}
+.img{
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+    width: 750px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 40px 20px #000;
+    float: left;
+}
+.active{
+	display:block;
+}
+.img:first-child{
+	background-image: url(../img/img_0.jpg);
+}
+.img:nth-child(2){
+	background-image: url(../img/img_1.jpg);
+}
+.img:nth-child(3){
+	background-image: url(../img/img_2.jpg);
+}
+.img:nth-child(4){
+	background-image: url(../img/img_3.jpg);
+}
+.text-descripton{
+	font-size: .7em;
+	position: absolute;
+    bottom: 84px;
+    left: 26px;
+    color: rgba(255,255,255,.8);
+}
+.prev{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 14px;
+    z-index: 1;
+}
+.next{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 690px;
+    z-index: 1;
+}
+.hookah-masters{
+	    top: 68px;
+    position: relative;
+    left: 182px;
+}
+.lamp{
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/lamp.png);
+    z-index: 10;
+    background-size: contain;
+    position: relative;
+   box-shadow: 0 0 10px 10px #000;
+}
+.master{
+	box-shadow: 0 0 10px 10px #000;
+	height: 134px;
+	width: 200px;
+	background-image: url(../img/hook-master-0.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.master:before{
+	background-color: #000;
+		box-shadow: 0 0 10px 10px #000;
+	height: 134px;
+	width: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: "";
+}
+
